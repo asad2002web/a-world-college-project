@@ -250,6 +250,18 @@ contact part end
         width: 95%;
         margin: 0 auto;
     }
+    header {
+        padding: 25px 0;
+    }
+    .menu ul {
+        padding: 20px 0;
+        align-items: center;
+        flex-direction: column;
+    }
+    .menu ul li{
+        padding: 10px 0;
+    }
+
     #services-id {
         margin:0;
     }
