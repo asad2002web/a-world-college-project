@@ -66,7 +66,10 @@ header{
     background-color: var(--primary);
 }
 /* header part END */
-/* services part start */
+
+/* ------------------------------------------
+services part start 
+------------------------------------------ */
 #services-id{
     margin: 50px 0;
 }
@@ -113,7 +116,71 @@ header{
 .services-items .services-item p a:hover{
     background-color: #434343;
 }
-/* services part end */
+/* ------------------------------------------
+services part end
+------------------------------------------ */
+/* ------------------------------------------
+contact part start
+------------------------------------------ */
+#contact-id{
+    padding: 100px 0;
+}
+.contact-head{
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.contact p{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.contact p input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 15px;
+    outline: none;
+}
+
+.contact p input::placeholder {
+    /* padding: 10px 15px; */
+    font-size: 20px;
+}
+.message{
+    font-size: 22px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.btn-contact{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 40px;
+    color: #fff;
+    background-color: #000d10;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------
+contact part end
+------------------------------------------ */
 #footer-id{
     padding: 250px 0 30px;
     background: url(../images/footer-bg.png) no-repeat top /cover;
@@ -174,7 +241,9 @@ header{
 
 
 /* ------------------------------------ 
-Responsive for Mobile Device 
+---------------------------------------
+01. Responsive for Mobile Device (Mobile Device)
+---------------------------------------
 ------------------------------------ */
 @media only screen and (max-width:576px) {
     .container{
@@ -208,6 +277,17 @@ Responsive for Mobile Device
     }
     .copyright p{
         padding: 10px 20px;
+    }
+
+    /* contact part */
+    .contact p{
+        width: 90%;
+    }
+    .message{
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        height: 200px;
     }
 
     .hide{
